@@ -26,7 +26,7 @@ namespace GuessingGameTemplate4U
 
             for (int i = 0; i < Form1.guessList.Count; i++)
             {
-                guessOutput.Text += Convert.ToString(Form1.guessList[i]) + ", ";
+                guessOutput.Text += Convert.ToString(Form1.guessList[i]) + ", "; 
             }
 
             Form1.guessList.Sort();
